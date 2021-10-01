@@ -32,10 +32,10 @@ void helloworld(float a, float b) {
   // --------- HANDOUT  PS00 ------------------------------
   // Create a variable c that is the sum of a and b
   // Use cout to display the values
-  cout << "Hello World!";
-  cout << "The value of a is " << a;
-  cout << "The value of b is " << b;
-  cout << "Entered integer is: " << getSum(a,b);
+  cout << "Hello World!" << endl;
+  cout << "The value of a is " << a << "." << endl;
+  cout << "The value of b is " << b << "." << endl;
+  cout << "The sum of a and b is " << getSum(a,b) << "." << endl;
 }
 
 // Create an image and return it
@@ -52,7 +52,9 @@ SimpleImage::SimpleImage(int width, int height){
     // --------- HANDOUT  PS00 ------------------------------
     // Make sure keep around all necessary data
     // Initialize the image to empty (0.0f)
-};
+    vector<float> image(width * height, 0.0f);
+    return ;
+}
 
 // Computes the average pixel value of the image
 float SimpleImage::compute_average() const {

@@ -8,6 +8,7 @@ int main() {
   // --------- HANDOUT  PS00 ------------------------------
   cout << "Congratulations, you have compiled the starter code!" << endl;
 
+  helloworld(1.0f, 2.0f);
   // Example Test
   // Read an Image
   // Image im("./Input/Cambridge1.png");
