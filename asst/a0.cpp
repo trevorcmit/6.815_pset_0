@@ -22,7 +22,9 @@ float getSum(float a, float b) {
   // --------- HANDOUT  PS00 ------------------------------
   // Create a variable c that is the sum of a and b
   // Return it
-  return 0.0f;
+  float c = a + b;
+  return c;
+  // return 0.0f;
 }
 
 // Print the sum of two numbers to the screen
@@ -30,6 +32,10 @@ void helloworld(float a, float b) {
   // --------- HANDOUT  PS00 ------------------------------
   // Create a variable c that is the sum of a and b
   // Use cout to display the values
+  cout << "Hello World!";
+  cout << "The value of a is " << a;
+  cout << "The value of b is " << b;
+  cout << "Entered integer is: " << getSum(a,b);
 }
 
 // Create an image and return it
